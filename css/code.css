@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+width: 150px;
+height: 100px;
+border: 3px solid #00C9A7;
+border-radius: 50%;
+align-self: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color:#4D8076;
+    padding: 20px;
+}
+main {
+    display: flex;
+    
+}
+
+h1,  #intro-text {
+    text-align: center;
+    color: bisque;
+}
+
+aside {
+    background-color:#B0A8B9 ;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color:#C34A36 ;
+}
+
+.wrapper .socialMedia {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+    background-color: #C34A36;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .socialMedia:hover {
+     width: 200px;
+}
+.wrapper .socialMedia span {
+ font-size: 20px;
+ height: 60px;
+ line-height: 60px;
+ font-weight: 500;
+}
+
+.wrapper .socialMedia .icon {
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.wrapper .socialMedia .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50px;
+}
+
+.wrapper ,.socialMedia:nth-child(1):hover .icon{
+     background-color: #00C9A7;
+}
+.wrapper ,.socialMedia:nth-child(1):hover .icon{
+background-color: aqua;
+}
+.wrapper ,.socialMedia:nth-child(1):hover .icon{
+background-color: #845EC2;
+}
+
+.wrapper ,.socialMedia:nth-child(1):hover .span{
+background-color: #BEA6A0;
+}
+.wrapper ,.socialMedia:nth-child(1):hover .span{
+background-color:#4B4453 ;
+}
+.wrapper ,.socialMedia:nth-child(1):hover .span{
+background-color: #845EC2;
+}
+
+/*lg applies to mediun devices (tablets, less tha 992px)*/
+@media (max-width: 991.98px) {
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+}
